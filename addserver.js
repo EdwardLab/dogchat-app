@@ -13,7 +13,7 @@ ui.layout(
         </appbar>
            <input id="server" hint="Please enter the server address."/>          
            <button id="ok" text="Save" w="auto" style="Widget.AppCompat.Button.Colored"/>
-           <text text="No registered account? Go to dogchat.top or contact the administrator to register." textColor="black" textSize="16sp" marginTop="10"/>
+           <text text="I do not know? Ask your administrator for server information" textColor="black" textSize="16sp" marginTop="10"/>
 
 
     
@@ -32,4 +32,3 @@ file.close();
 ui.finish();
 
     })
-});
