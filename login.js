@@ -8,9 +8,13 @@ var code
 var login
 var messages
 var msg
-//console.show()
+console.show()
 ui.layout(
-    <vertical padding="16">
+    
+    <vertical>
+         <appbar>
+            <toolbar id="toolbar" title="Login to DogChat" />
+        </appbar>
            <input id="user" hint="Please enter your user name"/>          
            <input id="password" password="true" hint="Please enter your password."/>
            <button id="ok" text="Login to DogChat" w="auto" style="Widget.AppCompat.Button.Colored"/>
