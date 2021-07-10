@@ -28,17 +28,17 @@ ui.ok.on("click", () => {
     threads.start(function () {
 
       
-        http.post("http://2eeefc39.cpolar.cn/api/send/", {
+        http.post("http://1e00c6b7.cpolar.cn/api/send/", {
             "token": readtoken,
             "dst_name": ui.sendtouser.text(),
             "msg": ui.messages.text()
 
         });
         
-        const send = http.get("http://2eeefc39.cpolar.cn/api/getlogs/?token=" + readtoken + "&dst_name=" + ui.sendtouser.text() + "&id=0")
+        const send = http.get("http://1e00c6b7.cpolar.cn/api/getlogs/?token=" + readtoken + "&dst_name=" + ui.sendtouser.text() + "&id=0")
         log(send)
     
-         str = 'http://2eeefc39.cpolar.cn/api/getlogs/?token='+readtoken+'&dst_name='+ui.sendtouser.text()+'&id=0'
+         str = 'http://1e00c6b7.cpolar.cn/api/getlogs/?token='+readtoken+'&dst_name='+ui.sendtouser.text()+'&id=0'
          a= http.get(str,{
  
         })
