@@ -1,0 +1,40 @@
+{
+  "assets": [],
+  "build": {
+    "build_id": "49C0EEB1-1",
+    "build_number": 1,
+    "build_time": 1626239905124,
+    "release": false
+  },
+  "encryptLevel": 0,
+  "useFeatures": [],
+  "icon": "res/icon.png",
+  "launchConfig": {
+    "displaySplash": true,
+    "hideLogs": false,
+    "splashLayoutXml": "splash.xml",
+    "splashText": "Powered by Microtech",
+    "stableMode": false
+  },
+  "main": "main.js",
+  "name": "DogChat Lite",
+  "optimization": {
+    "removeAccessibilityService": false,
+    "removeOpenCv": true,
+    "unusedResources": false
+  },
+  "packageName": "com.xingyujie.dogchat.lite",
+  "permissionConfig": {
+    "requestListOnStartup": [
+      "android.permission.WRITE_EXTERNAL_STORAGE"
+    ]
+  },
+  "scripts": {},
+  "signingConfig": {
+    "alias": "xingyujie",
+    "keystore": "/storage/emulated/0/脚本/.keystore/xingyujie.jks",
+    "uuid": "009b837a-a9f0-4b0f-9580-6d043e547447"
+  },
+  "versionCode": 102,
+  "versionName": "1.0.2"
+}
